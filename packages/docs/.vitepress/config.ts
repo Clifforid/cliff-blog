@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Cliff-Blog",
   description: "Cliff 个人站",
   base: "/cliff-blog/",
+  head: [["link", { rel: "icon", href: "爱宠29.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -21,8 +22,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/clifforid" }],
   },
 });
