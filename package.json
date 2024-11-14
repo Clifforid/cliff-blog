@@ -1,0 +1,13 @@
+{
+  "name": "@cliff-blog/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "pnpm --filter @cliff-blog/docs dev",
+    "docs:build": "pnpm --filter @cliff-blog/docs build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
