@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Cliff-Blog",
   description: "Cliff 个人站",
-  base: "/blog/",
+  base: "/cliff-blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
